@@ -1,0 +1,8 @@
+﻿.env
+.env.*
+!.env.example
+/backups/
+/backup/
+*.bak
+*.tmp
+php_error_log

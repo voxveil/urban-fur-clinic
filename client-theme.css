@@ -1,0 +1,47 @@
+:root {
+  --blue: #4385d2;
+  --blue-dark: #3372bd;
+  --mint: #eaf2fc;
+}
+.client-auth-page { background: radial-gradient(ellipse at 12% 9%, #e7efff 0, transparent 32%), radial-gradient(ellipse at 89% 92%, #e7efff 0, transparent 33%), #f6f8fb; }
+.client-brand-logo { width: 76px; height: 76px; flex: 0 0 76px; object-fit: contain; border: 1px solid #edf0f4; border-radius: 50%; background: #fff; box-shadow: 0 4px 12px rgba(32, 52, 75, .1); }
+.client-brand-logo-register { width: 44px; height: 44px; flex-basis: 44px; }
+.client-form input:focus, .client-form select:focus { border-color: #83b7dc; box-shadow: 0 0 0 3px #eaf4fc; }
+.password-recovery-link { margin: -8px 0 14px; text-align: right; font-size: 12px; }
+.password-recovery-link a { color: #397bbd; font-weight: 700; }
+.recovery-card>.eyebrow { margin-top: 28px; }
+.recovery-card>.muted { margin-bottom: 20px; }
+.recovery-stage[hidden] { display: none; }
+.recovery-password-wrap { display: flex; align-items: stretch; gap: 7px; }
+.recovery-password-wrap input { min-width: 0; flex: 1; }
+.recovery-eye { width: 46px; flex: 0 0 46px; border: 1px solid #dfe6ed; border-radius: 9px; background: #fff; color: #64778b; cursor: pointer; }
+.recovery-text-button { margin: 12px 0 0; padding: 0; border: 0; background: transparent; color: #397bbd; cursor: pointer; font: inherit; font-size: 12px; font-weight: 700; }
+.recovery-login-link { margin-top: 18px; }
+.auth-switch a, .text-link { color: #397bbd; }
+.portal-link:hover { background: #f5f8fb; color: #3c6b95; }
+.portal-link.active { background: #edf5fc; color: #3f7fb9; }
+.summary-icon.appointment-icon { background: #eaf2fc; color: #638cc6; }
+.status-badge.scheduled, .status-badge.confirmed { background: #eaf3fc; color: #4a81b7; }
+.list-icon { background: #eff5fa; color: #638bb3; }
+.brand-paw, .sidebar-help .help-icon, .avatar, .pet-avatar { background: #eaf2fc; color: #4385d2; }
+.eyebrow { color: #4385d2; }
+.sidebar-help { border-color: #edf2f7; background: #f8fbff; }
+.welcome-banner { border-color: #e7eff8; background: linear-gradient(105deg, #edf5fc, #f4f8fc 70%, #f1f6fb); }
+.welcome-banner h1 span { color: #4385d2; }
+.banner-art { color: #91b8e2; }
+.portal-link:hover { background: #f5f8fb; color: #3c6b95; }
+.pets-icon { background: #eaf2fc; color: #638cc6; }
+.recent-dot { background: #79a6d8; }
+.status-badge.completed { background: #eaf6ef; color: #498863; }
+.status-badge.cancelled { background: #fff0ec; color: #bc705d; }
+.service-checkbox-group { min-width: 0; margin: 0; padding: 13px; border: 1px solid #e3eaf2; border-radius: 9px; background: #fff; }
+.service-checkbox-group legend { padding: 0 5px; color: #40536a; font-size: 12px; font-weight: 700; }
+.service-checkboxes { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 8px; max-height: 220px; overflow: auto; }
+.service-checkbox { display: flex !important; min-height: 39px; align-items: center; gap: 9px; padding: 8px 10px; border: 1px solid #e3eaf2; border-radius: 8px; background: #fff; color: #40536a; font-size: 12px; font-weight: 500 !important; cursor: pointer; }
+.service-checkbox input { width: 16px; min-height: 16px; accent-color: #4385d2; }
+.pet-card-tag { color: #3f7fb9 !important; }
+@media print {
+  .portal-sidebar, .portal-topbar, .portal-footer, .form-panel, .portal-view:not(.active) { display: none !important; }
+  .portal-page, .portal-main { width: 100%; margin: 0; padding: 0; background: #fff; }
+  .portal-view.active { display: block; }
+}
